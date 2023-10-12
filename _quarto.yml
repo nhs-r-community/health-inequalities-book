@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Health Inequalities book"
+  author: "MDSN Collaborative Group"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - imd.qmd
+    - rural.qmd
+    - where-to-start.qmd
+    - summary.qmd
+    - references.qmd
+  repo-url: https://github.com/nhs-r-community/
+  repo-branch: main
+  repo-actions: [edit, issue]
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
